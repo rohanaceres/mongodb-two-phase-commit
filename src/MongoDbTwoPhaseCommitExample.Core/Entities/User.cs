@@ -1,11 +1,11 @@
-﻿using System;
+﻿using MongoDbGenericRepository.Models;
+using System;
 
 namespace MongoDbTwoPhaseCommitExample.Core.Entities
 {
     // TODO: Doc.
-    public class User
+    public class User : Document
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
     }
 }

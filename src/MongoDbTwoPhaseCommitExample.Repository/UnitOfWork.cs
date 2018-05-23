@@ -27,5 +27,20 @@ namespace MongoDbTwoPhaseCommitExample.Repository
             this._accountRepository = new AccountRepository(_mongoRepository);
             this._transferRepository = new TransferRepository(_mongoRepository);
         }
+
+        public void BeginTransaction()
+        {
+
+        }
+
+        public void Commit()
+        {
+
+        }
+
+        public void Rollback()
+        {
+
+        }
     }
 }
